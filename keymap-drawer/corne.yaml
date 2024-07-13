@@ -36,7 +36,7 @@ layers:
   - {t: ',', h: 'Sft+ ,'}
   - {t: ., h: Sft+ .}
   - {t: Sft+ ;, h: ;}
-  - '&as LS(Q)'
+  - {t: A, h: Sft+ Q}
   - ''
   - {t: SPACE, h: symbols}
   - '&tp'
@@ -44,7 +44,7 @@ layers:
   - {t: BACKSPACE, h: LSHIFT}
   - nav
   nav:
-  - '&as LS(Q)'
+  - {t: D, h: Sft+ Q}
   - '1'
   - '2'
   - '3'
@@ -55,8 +55,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&as LS(Q)'
-  - '&as LS(Q)'
+  - {t: C, h: Sft+ Q}
+  - {t: B, h: Sft+ Q}
   - VOLUME UP
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
@@ -67,8 +67,8 @@ layers:
   - UP
   - END
   - PG UP
-  - '&as LS(Q)'
-  - '&as LS(Q)'
+  - {t: D, h: Sft+ Q}
+  - {t: D, h: Sft+ Q}
   - {t: VOLUME DOWN, h: MUTE}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -79,7 +79,7 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - '&as LS(Q)'
+  - {t: C, h: Sft+ Q}
   - '&teste'
   - Advanced
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   symbols:
-  - '&as LS(Q)'
+  - {t: B, h: Sft+ Q}
   - '!'
   - '@'
   - '#'
@@ -98,8 +98,8 @@ layers:
   - '*'
   - (
   - )
-  - '&as LS(Q)'
-  - '&as LS(Q)'
+  - {t: B, h: Sft+ Q}
+  - {t: B, h: Sft+ Q}
   - F1
   - F2
   - F3
@@ -110,8 +110,8 @@ layers:
   - '{'
   - '}'
   - \
-  - '&as LS(Q)'
-  - '&as LS(Q)'
+  - {t: D, h: Sft+ Q}
+  - {t: E, h: Sft+ Q}
   - F6
   - F7
   - F8
@@ -122,7 +122,7 @@ layers:
   - '['
   - ']'
   - '|'
-  - '&as LS(Q)'
+  - {t: C, h: Sft+ Q}
   - ''
   - {type: held}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - Advanced
   Advanced:
-  - '&as LS(Q)'
+  - {t: B, h: Sft+ Q}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -141,8 +141,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&as LS(Q)'
-  - '&as LS(Q)'
+  - {t: C, h: Sft+ Q}
+  - {t: C, h: Sft+ Q}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -153,8 +153,8 @@ layers:
   - VOL UP
   - PLAY PAUSE
   - ''
-  - '&as LS(Q)'
-  - '&as LS(Q)'
+  - {t: B, h: Sft+ Q}
+  - {t: B, h: Sft+ Q}
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,7 +165,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&as LS(Q)'
+  - {t: B, h: Sft+ Q}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
