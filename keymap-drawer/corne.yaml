@@ -1,6 +1,6 @@
 layers:
   base:
-  - '&as LS(Q)'
+  - ESCAPE
   - {t: Q, h: Sft+ Q}
   - {t: W, h: Sft+ W}
   - {t: E, h: Sft+ E}
@@ -12,7 +12,7 @@ layers:
   - {t: O, h: Sft+ O}
   - {t: P, h: Sft+ P}
   - '&as LS(Q)'
-  - '&as LS(Q)'
+  - TAB
   - {t: A, h: Sft+ A}
   - {t: S, h: Sft+ S}
   - {t: D, h: Sft+ D}
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Sft+ L}
   - {t: ;, h: Sft+ ;}
   - '&as LS(Q)'
-  - '&as LS(Q)'
+  - LCTRL
   - {t: Z, h: Sft+ Z}
   - {t: X, h: Sft+ X}
   - {t: C, h: Sft+ C}
