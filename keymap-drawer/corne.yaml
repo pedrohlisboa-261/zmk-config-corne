@@ -11,7 +11,7 @@ layers:
   - {t: I, h: Sft+ I}
   - {t: O, h: Sft+ O}
   - {t: P, h: Sft+ P}
-  - '&as LS(Q)'
+  - '`'
   - TAB
   - {t: A, h: Sft+ A}
   - {t: S, h: Sft+ S}
@@ -23,7 +23,7 @@ layers:
   - {t: K, h: Sft+ K}
   - {t: L, h: Sft+ L}
   - {t: ;, h: Sft+ ;}
-  - '&as LS(Q)'
+  - {t: ^, h: '~'}
   - LCTRL
   - {t: Z, h: Sft+ Z}
   - {t: X, h: Sft+ X}
@@ -34,7 +34,7 @@ layers:
   - {t: M, h: Sft+ M}
   - {t: ',', h: 'Sft+ ,'}
   - {t: ., h: Sft+ .}
-  - {t: /, h: Sft+ /}
+  - {t: Sft+ ;, h: ;}
   - '&as LS(Q)'
   - ''
   - {t: SPACE, h: symbols}
@@ -171,6 +171,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESC
