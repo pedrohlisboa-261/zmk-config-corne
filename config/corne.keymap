@@ -1,5 +1,5 @@
 / {
-    chosen { zmk,matrix_transform = &five_column_transform; };
+    chosen { zmk,matrix_transform = &default; };
 };
 
 #include <behaviors.dtsi>
