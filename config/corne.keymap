@@ -5,7 +5,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
 #define TAPPING_TERM 200
@@ -40,74 +39,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        ESC_ {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
-        };
-
-        TAB_ {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
-        };
-
-        CAPS_ {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <10 20>;
-        };
-
-        undo {
-            bindings = <&kp LC(Z)>;
-            key-positions = <20 21>;
-        };
-
-        cut {
-            bindings = <&kp LC(X)>;
-            key-positions = <21 22>;
-        };
-
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <22 23>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <23 24>;
-        };
-
-        noundo {
-            bindings = <&kp LC(Y)>;
-            key-positions = <20 21 22>;
-        };
-
-        del {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
-        };
-
-        aspas {
-            bindings = <&kp SQT>;
-            key-positions = <18 19>;
-        };
-
-        tio {
-            bindings = <&kp TILDE>;
-            key-positions = <17 18>;
-        };
-
-        interrogacao {
-            bindings = <&kp QUESTION>;
-            key-positions = <28 29>;
-        };
-
-        crtl {
-            bindings = <&kt LEFT_CONTROL>;
-            key-positions = <31 32>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         teste: teste {
