@@ -1,5 +1,5 @@
 / {
-    chosen { zmk,matrix_transform = &default; };
+    chosen { zmk,matrix_transform = &dkeymap_transform_0; };
 };
 
 #include <behaviors.dtsi>
