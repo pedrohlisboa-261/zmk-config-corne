@@ -59,7 +59,7 @@
 &kp ESCAPE  &as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R  &as LS(T) T    &as LS(Y) Y         &as LS(U) U           &as LS(I) I          &as LS(O) O      &as LS(P) P                  &kp GRAVE
 &kp TAB     &as LS(A) A  &as LS(S) S  &as LS(D) D  &as LS(F) F  &as LS(G) G    &as LS(H) H         &as LS(J) J           &as LS(K) K          &as LS(L) L      &as LS(SEMICOLON) SEMICOLON  &as TILDE CARET
 &kp LCTRL   &as LS(Z) Z  &as LS(X) X  &as LS(C) C  &as LS(V) V  &as LS(B) B    &as LS(N) N         &as LS(M) M           &as LS(COMMA) COMMA  &as LS(DOT) DOT  &as SEMI LS(SEMI)            &as LS(Q) A
-                                      &none        &lt 2 SPACE  &tp            &mt LEFT_ALT ENTER  &mt LSHIFT BACKSPACE  &mo 1
+                                      &kp Z        &lt 2 SPACE  &tp            &mt LEFT_ALT ENTER  &mt LSHIFT BACKSPACE  &mo 1
             >;
         };
 
